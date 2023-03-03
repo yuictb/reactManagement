@@ -1,1 +1,0 @@
-<view><text>文本</text><tab-bar vue-id="ffa91980-1" current="{{2}}" bind:__l="__l"></tab-bar></view>

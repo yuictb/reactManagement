@@ -1,1 +1,0 @@
-<view><text>测试页面</text><tab-bar vue-id="741027ac-1" current="{{1}}" bind:__l="__l"></tab-bar></view>

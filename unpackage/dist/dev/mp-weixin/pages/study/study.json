@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "学习",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "tab-bar": "/components/tabbar/TabBar"
-  }
-}
