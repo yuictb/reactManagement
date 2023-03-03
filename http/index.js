@@ -1,7 +1,7 @@
 export default (url, method = 'POST', params = {}, isJson = true) => {
-	const headers = {};
-	headers['content-type'] = isJson ? 'application/json' : 'application/x-www-form-urlencoded';
-	// headers['authorization'] = getStorageToken() || '';
+	const header = {};
+	header['content-type'] = isJson ? 'application/json' : 'application/x-www-form-urlencoded';
+	// header['authorization'] = getStorageToken() || '';
 	return new Promise((resolve, reject) => {
 		uni.showLoading({
 			title: "加载中",
@@ -11,7 +11,7 @@ export default (url, method = 'POST', params = {}, isJson = true) => {
 			url: baseUrl + url,
 			method,
 			data: params,
-			header: headers,
+			header,
 			success(response) {
 				const {
 					statusCode,

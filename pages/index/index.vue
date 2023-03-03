@@ -4,15 +4,21 @@
 		<view class="text-area">
 			<u-button @click="jump" type="primary" text="确定"></u-button>
 		</view>
+		<TabBar :current="0" />
 	</view>
 </template>
 
 <script>
+import TabBar from '@/components/tabbar/TabBar.vue';
+
 export default {
 	data() {
 		return {
-			title: "Hello"
-		}
+			title: 'Hello'
+		};
+	},
+	components: {
+		TabBar
 	},
 	onLoad() {},
 	methods: {
@@ -22,7 +28,7 @@ export default {
 			});
 		}
 	}
-}
+};
 </script>
 
 <style lang="scss" scoped>

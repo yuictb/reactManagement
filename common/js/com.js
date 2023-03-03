@@ -1,7 +1,3 @@
-import Vue from 'vue'
-// 引入全局uView
-import uView from '@/uni_modules/uview-ui'
-Vue.use(uView);
 
 // const goBackHome = ()=> {
 // 	// #ifdef MP-WEIXIN||MP-ALIPAY
