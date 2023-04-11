@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import TabBar from '@/components/tabbar/TabBar.vue';
+import TabBar from "@/components/tabbar/TabBar.vue"
 
 export default {
 	data() {
 		return {
-			title: 'Hello'
-		};
+			title: "Hello"
+		}
 	},
 	components: {
 		TabBar
@@ -24,11 +24,11 @@ export default {
 	methods: {
 		jump() {
 			uni.switchTab({
-				url: '/pages/study/study'
-			});
+				url: "/pages/study/study"
+			})
 		}
 	}
-};
+}
 </script>
 
 <style lang="scss" scoped>
